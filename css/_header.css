@@ -13,14 +13,21 @@ header {
     width: 100%;
   }
 
+  .logo img {
+    max-width: 150px;
+    height: auto;
+  }
+
   .birds {
-    background: url(/images/birds.png) no-repeat;
-    width: 225px;
-    height: 55px;
     display: none;
 
     @media (min-width: 880px) {
       display: block;
+    }
+
+    img {
+      width: 200px;
+      height: auto;
     }
   }
 }
