@@ -80,6 +80,6 @@ footer .copy {
 }
 
 .container {
-  max-width: var(--max-width);
+  max-width: var(--max-width-header);
   margin: 0 auto;
 }

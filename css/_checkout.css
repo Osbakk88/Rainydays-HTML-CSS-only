@@ -92,3 +92,64 @@
 .checkout-btn:hover {
   background-color: #333;
 }
+
+/* Cart Container */
+.cartcontainer {
+  margin: 20px auto;
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.remove-button {
+  background-color: #ff4d4d; /* Red background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 50%; /* Makes the button round */
+  width: 15px; /* Width of the button */
+  height: 15px; /* Height of the button */
+  display: flex; /* Center the text */
+  align-items: center; /* Center the text vertically */
+  justify-content: center; /* Center the text horizontally */
+  font-size: 10px; /* Font size for the "X" */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.remove-button:hover {
+  background-color: #ff1a1a; /* Darker red on hover */
+}
+
+.table-header-left {
+  text-align: left;
+}
+
+.product-table {
+  width: 100%; /* Make the table take up the full width of its container */
+  border-collapse: collapse; /* Remove gaps between table cells */
+  margin: 20px 0; /* Add some spacing around the table */
+  font-size: 16px; /* Set a readable font size */
+  text-align: left; /* Align text to the left */
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ddd; /* Add a border to table cells */
+  padding: 12px; /* Add padding inside cells */
+}
+
+.product-table th {
+  background-color: #f4f4f4; /* Light gray background for headers */
+  font-weight: bold; /* Make header text bold */
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Add a light background for even rows */
+}
+
+.product-table tr:hover {
+  background-color: #f1f1f1; /* Highlight row on hover */
+}
