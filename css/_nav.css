@@ -1,18 +1,16 @@
-nav {
-  a {
-    text-decoration: none;
-    color: var(--colour-text);
-    font-weight: bold;
-    padding: 0.5rem 1.5rem;
-  }
+nav a {
+  text-decoration: none;
+  color: var(--colour-text);
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+}
 
-  a.active {
-    text-decoration: underline;
-  }
+nav a.active {
+  text-decoration: underline;
+}
 
-  svg {
-    fill: var(--colour-text);
-  }
+nav svg {
+  fill: var(--colour-text);
 }
 
 #sidebar-active {

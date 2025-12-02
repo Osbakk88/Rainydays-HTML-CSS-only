@@ -3,31 +3,33 @@ header {
   height: 100px;
   display: flex;
   align-items: center;
+}
 
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: var(--max-width-header);
-    padding: 0 1rem;
-    width: 100%;
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--max-width-header);
+  padding: 0 1rem;
+  width: 100%;
+}
+
+header .logo img {
+  max-width: 150px;
+  height: auto;
+}
+
+header .birds {
+  display: none;
+}
+
+@media (min-width: 880px) {
+  header .birds {
+    display: block;
   }
+}
 
-  .logo img {
-    max-width: 150px;
-    height: auto;
-  }
-
-  .birds {
-    display: none;
-
-    @media (min-width: 880px) {
-      display: block;
-    }
-
-    img {
-      width: 200px;
-      height: auto;
-    }
-  }
+header .birds img {
+  width: 200px;
+  height: auto;
 }
