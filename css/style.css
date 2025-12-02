@@ -1,8 +1,8 @@
-@import "_variables.css";
-@import "_base.css";
-@import "_typography.css";
-@import "_header.css";
-@import "_nav.css";
-@import "_home.css";
-@import "_products.css";
-@import "_checkout.css";
+@import url("_variables.css");
+@import url("_base.css");
+@import url("_typography.css");
+@import url("_header.css");
+@import url("_nav.css");
+@import url("_home.css");
+@import url("_products.css");
+@import url("_checkout.css");
