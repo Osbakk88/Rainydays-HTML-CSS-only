@@ -1,61 +1,98 @@
 # Rainydays - Outdoor Jacket Store
 
-A simple e-commerce website for outdoor jackets, built with HTML and CSS only.
+A responsive e-commerce website for outdoor jackets, built with only HTML and CSS.
 
-## About This Project
+![Rainydays Banner](https://osbakk88.github.io/Rainydays-HTML-CSS-only/images/raincoats.jpg)
 
-This is a school assignment project showcasing a fictional online store called "Rainydays" that sells outdoor jackets for various activities like hiking, skiing, and urban exploration.
+## About
 
-## Technologies Used
+Rainydays is a fictional online store for Norwegian outdoor jackets. The site features different jacket styles for hiking, skiing, and everyday use.
 
-- HTML5
-- CSS3
-- Figma
-- Co Pilot
-  
+**Live site:** [https://osbakk88.github.io/Rainydays-HTML-CSS-only/](https://osbakk88.github.io/Rainydays-HTML-CSS-only/)
+
+## Technologies
+
+- HTML5 - Semantic markup
+- CSS3 - Grid, Flexbox, custom properties
+- GitHub Pages - Hosting
+- AI - Copilot assistance and code checking
 
 ## Project Structure
 
-- `index.html` - Homepage with hero section and collection previews
-- `about.html` - About page with company information and contact form
-- `productpage.html` - Product listing page with jacket cards
-- `checkout.html` - Checkout form for completing orders
-- `css/` - Folder containing all stylesheets
-  - `style.css` - Main stylesheet that imports all other CSS files
-  - `_variables.css` - CSS variables for colors and spacing
-  - `_base.css` - Base styles and layout
-  - `_header.css` - Header and navigation styles
-  - `_products.css` - Product grid and card styles
-  - `_checkout.css` - Checkout form styles
-- `images/` - Folder containing all images and icons
+```
+Rainydays-HTML-CSS-only/
+├── index.html
+├── about.html
+├── productpage.html
+├── checkout.html
+├── checkout.success.html
+├── css/
+│   ├── style.css          # Main stylesheet
+│   ├── variables.css      # Colors and spacing
+│   ├── base.css           # Base styles
+│   ├── typography.css
+│   ├── header.css
+│   ├── nav.css
+│   ├── home.css
+│   ├── products.css
+│   └── checkout.css
+└── images/
+```
 
 ## Features
 
-- Responsive design that works on desktop and mobile
+- Responsive design (works on mobile, tablet, desktop)
 - Semantic HTML structure
-- Accessible forms with proper labels
-- Clean and simple layout
-- Product grid with cards
-- Checkout form with shipping and payment sections
+- Mobile navigation menu
+- CSS Grid product layout
+- Contact form on about page
+- No JavaScript needed
 
-## Design from Figma
+## Design
 
-https://www.figma.com/design/b684S9hbNUf6tVtoiJTwb0/Rainydays?node-id=51-26&t=Uf574JjSLFJktBAZ-1
+Based on this Figma design: [View on Figma](https://www.figma.com/design/b684S9hbNUf6tVtoiJTwb0/Rainydays?node-id=51-26&t=Uf574JjSLFJktBAZ-1)
 
-Note that the figma design differs form the finnised product in this file. This is a new repository with code put togheter from the advcaced Rainyday repository that contains JS. 
+Note: I made some changes from the original design, especially on the checkout and about pages.
 
+## How to Run
 
-## How to View
+1. Clone the repository:
 
-1. Clone or download this repository
-2. Open `index.html` in your web browser
-3. Navigate through the pages using the menu
+   ```bash
+   git clone https://github.com/Osbakk88/Rainydays-HTML-CSS-only.git
+   ```
+
+2. Open `index.html` in your browser
+
+That's it! No build process needed.
+
+## Pages
+
+- **Home** - Landing page with hero section
+- **Products** - Catalog with 6 jackets
+- **About** - Company info and contact form
+- **Checkout** - Order form
+- **Success** - Order confirmation
+
+## School Assignment
+
+This is a project for Noroff School of Technology and Digital Media.
+
+Assignment requirements:
+
+- Multi-page website using HTML and CSS only
+- Responsive design
+- Semantic HTML and accessibility
+- At least one design improvement from the original Figma mockup
+
+My improvements: Redesigned the checkout form to be cleaner and more modern, and completely restructured the about page with a better layout.
 
 ## Author
 
-School Assignment Project from Noroff School of technology and digital media
-All code was done by me, Christina Anett Osbakk
+Christina Anett Osbakk
 
-## Repository
+## Links
 
-https://github.com/Osbakk88/Rainydays-HTML-CSS-only
+- Live site: [https://osbakk88.github.io/Rainydays-HTML-CSS-only/](https://osbakk88.github.io/Rainydays-HTML-CSS-only/)
+- Repository: [https://github.com/Osbakk88/Rainydays-HTML-CSS-only](https://github.com/Osbakk88/Rainydays-HTML-CSS-only)
+- Figma design: [View Design](https://www.figma.com/design/b684S9hbNUf6tVtoiJTwb0/Rainydays?node-id=51-26&t=Uf574JjSLFJktBAZ-1)

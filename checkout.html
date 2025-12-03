@@ -1,137 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="Rainydays - Selections of outdoor jackets for all kinds of weather"/>
-<link rel="stylesheet" href="css/style.css?v=2" />
-<title>Checkout - Push the limits</title>
-<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"/>
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
-<link rel="manifest" href="images/site.webmanifest" />
-</head>
-<body>
-<header>
-<div class="container">
-<a class="logo" href="/">
-<img src="images/logo.png" alt="Rainy Days logo" width="150" height="50"/>
-</a>
-<nav>
-<input type="checkbox" id="sidebar-active" />
-<label for="sidebar-active" class="open-sidebar-button" aria-label="Open navigation menu">
-<svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32">
-<path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/> </svg>
-</label>
-<div class="links-container">
-<label for="sidebar-active" class="close-sidebar-button" aria-label="Close navigation menu">
-<svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32">
-<path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
- </svg>
-</label>
-<a class="home-link active" href="index.html">Home</a>
-<a class="Woman`s" href="productpage.html">Woman's</a>
-<a class="cart" href="checkout.html">Cart</a>
-<a class="About" href="about.html">About</a>
-</div>
-</nav>
-<div class="birds"></div>
-<article class="page-body">
-</article>
-</header>
-<main class="checkout-main"> 
-<div class="checkout-container">
-  <h1>Checkout</h1>
-  
-  <form class="checkout-form"> 
-    <section class="form-section">
-      <h2>1. Shipping And Delivery</h2>
-      <div class="form-group">
-        <label for="firstname">First Name:</label>
-        <input type="text" id="firstname" name="firstname" required>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rainydays - Selections of outdoor jackets for all kinds of weather"
+    />
+    <link rel="stylesheet" href="css/style.css?v=2" />
+    <title>Checkout - Push the limits</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/site.webmanifest" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a class="logo" href="index.html">
+          <img
+            src="images/logo.png"
+            alt="Rainy Days logo"
+            width="150"
+            height="50"
+          />
+        </a>
+        <nav>
+          <input type="checkbox" id="sidebar-active" />
+          <label
+            for="sidebar-active"
+            class="open-sidebar-button"
+            aria-label="Open navigation menu"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="32"
+              viewBox="0 -960 960 960"
+              width="32"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              />
+            </svg>
+          </label>
+          <div class="links-container">
+            <label
+              for="sidebar-active"
+              class="close-sidebar-button"
+              aria-label="Close navigation menu"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="32"
+                viewBox="0 -960 960 960"
+                width="32"
+              >
+                <path
+                  d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                />
+              </svg>
+            </label>
+            <a class="home-link" href="index.html">Home</a>
+            <a class="womans" href="productpage.html">Woman's</a>
+            <a class="cart active" href="checkout.html">Cart</a>
+            <a class="about" href="about.html">About</a>
+          </div>
+        </nav>
+        <div class="birds"></div>
       </div>
-      
-      <div class="form-group">
-        <label for="lastname">Last Name:</label>
-        <input type="text" id="lastname" name="lastname" required>
-      </div>
-      
-      <div class="form-group">
-        <label for="address">Delivery Address:</label>
-        <input type="text" id="address" name="address" required>
-      </div>
-      
-      <div class="form-group">
-        <label for="city">City:</label>
-        <input type="text" id="city" name="city" required>
-      </div>
-      
-      <div class="form-group">
-        <label for="zipcode">Zip Code:</label>
-        <input type="text" id="zipcode" name="zipcode" required>
-      </div>
-      
-      <div class="form-group">
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone" required>
-      </div>
-      
-      <div class="form-group">
-        <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-    </section>
+    </header>
+    <main class="checkout-main">
+      <div class="checkout-container">
+        <h1>Checkout</h1>
 
-    <section class="form-section">
-      <h2>2. Payment Method</h2>
-      <div class="form-group">
-        <label for="cardname">Cardholders Name:</label>
-        <input type="text" id="cardname" name="cardname" required>
-      </div>
-      
-      <div class="form-group">
-        <label for="cardnumber">Card Number:</label>
-        <input type="text" id="cardnumber" name="cardnumber" required>
-      </div>
-      
-      <div class="form-group">
-        <label for="expdate">Expiration Date:</label>
-        <input type="text" id="expdate" name="expdate" placeholder="MM/YY" required>
-      </div>
-      
-      <div class="form-group">
-        <label for="cvv">CVV:</label>
-        <input type="text" id="cvv" name="cvv" maxlength="3" required>
-      </div>
-    </section>
+        <!-- Redesigned checkout form - cleaner layout with numbered sections -->
+        <form
+          class="checkout-form"
+          action="checkout.success.html"
+          method="post"
+        >
+          <!-- Section 1: Shipping information -->
+          <section class="form-section">
+            <h2>1. Shipping And Delivery</h2>
+            <div class="form-group">
+              <label for="firstname">First Name:</label>
+              <input type="text" id="firstname" name="firstname" required />
+            </div>
 
-    <section class="form-section order-summary">
-      <h2>3. Order Summary</h2>
-      <div class="summary-details">
-        <p><span>Subtotal (1 item):</span> <span>$149.99</span></p>
-        <p><span>Shipping (1-5 business days):</span> <span>$2.67</span></p>
-        <p><span>Estimated Tax:</span> <span>$0.00</span></p>
-        <p class="total"><span>Order Total:</span> <span>$152.66</span></p>
+            <div class="form-group">
+              <label for="lastname">Last Name:</label>
+              <input type="text" id="lastname" name="lastname" required />
+            </div>
+
+            <div class="form-group">
+              <label for="address">Delivery Address:</label>
+              <input type="text" id="address" name="address" required />
+            </div>
+
+            <div class="form-group">
+              <label for="city">City:</label>
+              <input type="text" id="city" name="city" required />
+            </div>
+
+            <div class="form-group">
+              <label for="zipcode">Zip Code:</label>
+              <input type="text" id="zipcode" name="zipcode" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </section>
+
+          <!-- Section 2: Payment details -->
+          <section class="form-section">
+            <h2>2. Payment Method</h2>
+            <div class="form-group">
+              <label for="cardname">Cardholders Name:</label>
+              <input type="text" id="cardname" name="cardname" required />
+            </div>
+
+            <div class="form-group">
+              <label for="cardnumber">Card Number:</label>
+              <input type="text" id="cardnumber" name="cardnumber" required />
+            </div>
+
+            <div class="form-group">
+              <label for="expdate">Expiration Date:</label>
+              <input
+                type="text"
+                id="expdate"
+                name="expdate"
+                placeholder="MM/YY"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="cvv">CVV:</label>
+              <input type="text" id="cvv" name="cvv" maxlength="3" required />
+            </div>
+          </section>
+
+          <!-- Section 3: Order summary with total -->
+          <section class="form-section order-summary">
+            <h2>3. Order Summary</h2>
+            <div class="summary-details">
+              <p><span>Subtotal (1 item):</span> <span>$149.99</span></p>
+              <p>
+                <span>Shipping (1-5 business days):</span> <span>$2.67</span>
+              </p>
+              <p><span>Estimated Tax:</span> <span>$0.00</span></p>
+              <p class="total">
+                <span>Order Total:</span> <span>$152.66</span>
+              </p>
+            </div>
+            <button type="submit" class="checkout-btn">COMPLETE ORDER</button>
+          </section>
+        </form>
       </div>
-      <button type="submit" class="checkout-btn">COMPLETE ORDER</button>
-    </section>
-  </form>
-</div>
-</main>
-<footer>
-  <div class="payments"></div>
-  <div class="menu">
-    <nav>
-      <a class="home-link" href="index.html">Home</a>
-      <a class="Woman`s" href="productpage.html">Woman's</a>
-      <a class="Cart active" href="checkout.html">Cart</a>
-      <a class="About" href="about.html">About</a>
-    </nav>
-    <div class="copy">
-      &copy; 2024 Nordic Rainwear Co. All rights reserved
-    </div>
-  </div>
-  <div class="social"></div>
-</footer>
-</body>
+    </main>
+    <footer>
+      <div class="payments"></div>
+      <div class="menu">
+        <nav>
+          <a class="home-link" href="index.html">Home</a>
+          <a class="womans" href="productpage.html">Woman's</a>
+          <a class="cart active" href="checkout.html">Cart</a>
+          <a class="about" href="about.html">About</a>
+        </nav>
+        <div class="copy">
+          &copy; 2024 Nordic Rainwear Co. All rights reserved
+        </div>
+      </div>
+      <div class="social"></div>
+    </footer>
+  </body>
 </html>

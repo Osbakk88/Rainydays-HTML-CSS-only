@@ -1,8 +1,10 @@
+/* Checkout page - redesigned for cleaner, more modern look */
 .checkout-main {
   max-width: 100%;
   width: 100%;
 }
 
+/* Main container with border - keeps form contained and centered */
 .checkout-container {
   max-width: 850px;
   margin: 2rem auto;
@@ -18,12 +20,14 @@
   border-bottom: 2px solid #333;
 }
 
+/* Form uses flexbox column layout with gap between sections */
 .checkout-form {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
+/* Each section has its own box - makes the form easier to read */
 .form-section {
   padding: 1.5rem;
   border: 1px solid #ddd;
@@ -54,10 +58,12 @@
   font-size: 1rem;
 }
 
+/* Bold outline on focus for better accessibility */
 .form-group input:focus {
   outline: 2px solid #000;
 }
 
+/* Order summary stands out with darker background and thicker border */
 .order-summary {
   background-color: #e8e8e8;
   padding: 1.5rem;
@@ -106,21 +112,21 @@
 }
 
 .remove-button {
-  background-color: #ff4d4d; /* Red background */
-  color: white; /* White text */
-  border: none; /* No border */
-  border-radius: 50%; /* Makes the button round */
-  width: 15px; /* Width of the button */
-  height: 15px; /* Height of the button */
-  display: flex; /* Center the text */
-  align-items: center; /* Center the text vertically */
-  justify-content: center; /* Center the text horizontally */
-  font-size: 10px; /* Font size for the "X" */
-  cursor: pointer; /* Pointer cursor on hover */
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  cursor: pointer;
 }
 
 .remove-button:hover {
-  background-color: #ff1a1a; /* Darker red on hover */
+  background-color: #ff1a1a;
 }
 
 .table-header-left {
@@ -128,28 +134,28 @@
 }
 
 .product-table {
-  width: 100%; /* Make the table take up the full width of its container */
-  border-collapse: collapse; /* Remove gaps between table cells */
-  margin: 20px 0; /* Add some spacing around the table */
-  font-size: 16px; /* Set a readable font size */
-  text-align: left; /* Align text to the left */
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
 }
 
 .product-table th,
 .product-table td {
-  border: 1px solid #ddd; /* Add a border to table cells */
-  padding: 12px; /* Add padding inside cells */
+  border: 1px solid #ddd;
+  padding: 12px;
 }
 
 .product-table th {
-  background-color: #f4f4f4; /* Light gray background for headers */
-  font-weight: bold; /* Make header text bold */
+  background-color: #f4f4f4;
+  font-weight: bold;
 }
 
 .product-table tr:nth-child(even) {
-  background-color: #f9f9f9; /* Add a light background for even rows */
+  background-color: #f9f9f9;
 }
 
 .product-table tr:hover {
-  background-color: #f1f1f1; /* Highlight row on hover */
+  background-color: #f1f1f1;
 }
