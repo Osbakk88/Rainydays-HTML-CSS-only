@@ -2,7 +2,8 @@
 
 A responsive e-commerce website for outdoor jackets, built with only HTML and CSS.
 
-![Rainydays Banner](https://osbakk88.github.io/Rainydays-HTML-CSS-only/images/raincoats.jpg)
+![0CD5301C-65C8-4B7D-815D-335ED9DEFC66](https://github.com/user-attachments/assets/5fc011e0-e5f6-4111-8c72-74b8b3e926de)
+
 
 ## About
 
